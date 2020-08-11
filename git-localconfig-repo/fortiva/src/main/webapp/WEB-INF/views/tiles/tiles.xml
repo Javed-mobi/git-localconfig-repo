@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Template Definition -->
+
+	<definition name="dashboard-def"
+		template="/WEB-INF/views/tiles/layouts/dashboard-layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/tiles/templates/dashboard-header.jsp" />
+		<put-attribute name="menu"
+			value="/WEB-INF/views/tiles/templates/dashboard-menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/tiles/templates/dashboard-footer.jsp" />
+	</definition>
+
+	<definition name="superadmin-dashboard-def"
+		template="/WEB-INF/views/tiles/layouts/superadmin-dashboard-layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="" />
+	</definition>
+
+	<definition name="login-def"
+		template="/WEB-INF/views/tiles/layouts/login-layout.jsp">
+	</definition>
+
+
+	<definition name="login" extends="login-def"></definition>
+
+	<!-- Configuration Page -->
+	<definition name="dashboard" extends="dashboard-def">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/configuration.jsp" />
+	</definition>
+
+	<!-- Order Listing Page -->
+	<definition name="report" extends="dashboard-def">
+		<put-attribute name="title" value="Orders" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/reports.jsp" />
+	</definition>
+
+	<!-- Billing Page -->
+	<definition name="billing" extends="dashboard-def">
+		<put-attribute name="title" value="Orders" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/billing.jsp" />
+	</definition>
+
+	<!-- Notification Page -->
+	<definition name="notification" extends="dashboard-def">
+		<put-attribute name="title" value="Notifications" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/notification.jsp" />
+	</definition>
+
+	<!-- FAQ Page -->
+	<definition name="faq" extends="dashboard-def">
+		<put-attribute name="title" value="FAQ" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/faq.jsp" />
+	</definition>
+
+	<definition name="superadmin-dashboard"
+		extends="superadmin-dashboard-def">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/superadmin-dashboard.jsp" />
+	</definition>
+
+	<definition name="superadmin-report"
+		extends="superadmin-dashboard-def">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/admin-billing.jsp" />
+	</definition>
+
+	<definition name="superadmin-dashboard-old"
+		extends="superadmin-dashboard-def">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/superadmin-dashboard-old.jsp" />
+	</definition>
+
+
+</tiles-definitions>

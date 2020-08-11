@@ -1,0 +1,590 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+	background: #F5F6F8 !important;
+}
+
+h3 {
+	font-weight: 700;
+}
+
+label.error {
+	color: #f32626;
+	padding-left: 5px;
+	padding-top: 2px;
+	font-weight: 100;
+}
+
+.pd-lft {
+	padding-left: 30px !important;
+}
+
+.rq:after {
+	content: "*";
+	color: red;
+}
+
+.pd-top {
+	padding-top: 15px;
+}
+
+.pd-top2 {
+	padding-top: 18px;
+}
+
+.well {
+	background-color: white !important;
+	margin-bottom: -20px !important;
+}
+
+.mr-top {
+	margin-top: 10px;
+}
+
+.pd-tb {
+	padding: 8px 0 8px 0;
+}
+
+.aw {
+	height: 200px;
+}
+
+.pm {
+	background-color: #5B68C4 !important;
+	margin-top: 10px;
+}
+
+.dclr {
+	color: #B6B6B6;
+}
+
+.well td {
+	color: #8A8D9A;
+}
+
+.bg-w td {
+	color: #8A8D9A;
+}
+
+.btn-group .active {
+	background-color: #5B68C4 !important;
+	border: 1px solid #5B68C4 !important;
+	border-radius: 20px;
+}
+
+.btn-group :not (.active ) {
+	background-color: white !important;
+	color: black;
+	border-radius: 20px;
+}
+
+.btn-group :not (.active ):hover {
+	color: black;
+}
+
+.btn-group :not (.active ):focus {
+	outline: none;
+}
+
+.nav-tabs li.active a {
+	background-color: none !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+	{
+	background-color: transparent !important;
+	border: none !important;
+}
+
+/*.btn-group>.btn:last-child:not(:first-child){
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important; 
+	width: 120px !important;
+    margin-left: -10% !important;
+}*/
+
+/*#billing .pd-top {
+    padding-top: 0px;
+}
+#billing .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 15px 15px !important;
+}*/
+.btn-group>.btn.active {
+	z-index: 999 !important;
+	text-align: center !important;
+	padding: 6px 12px !important;
+}
+
+.text-below-buttons {
+	padding-bottom: 5px !important;
+}
+
+.nav>li>a {
+	padding: 13px 15px !important;
+	letter-spacing: 0.7px !important;
+}
+
+.nav-tabs>li.active>a {
+	color: #000;
+	font-weight: 700;
+}
+
+.notifications-toggle-enable {
+	font-size: 11px !important;
+	width: 68px !important;
+	padding: 6px 10px !important;
+	border-top-right-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+	outline: 0px !important;
+	border-color: #ccc !important;
+}
+
+.notifications-toggle-disable {
+	font-size: 11px !important;
+	width: 65px !important;
+	margin-left: -18% !important;
+	padding: 6px 30px !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+	outline: 0px !important;
+	border-color: #ccc !important;
+}
+
+a:focus, a:hover {
+	text-decoration: none !important;
+}
+
+.well {
+	border: 0px solid #e3e3e3 !important;
+	border-radius: 0px !important;
+}
+
+tr.billing-tab-rows td {
+	padding: 15px !important;
+	vertical-align: middle !important;
+}
+
+tr.billing-header-rows th {
+	padding: 15px !important;
+	vertical-align: middle !important;
+	font-size: 14px !important;
+	letter-spacing: 0.5px !important;
+}
+
+.caret2 {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-bottom: 4px dashed;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+
+a.sort-by {
+	color: #000;
+	position: relative !important;
+}
+
+a.sort-by:before, a.sort-by:after {
+	border: 4px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	right: -12px;
+	top: 55%;
+	position: absolute;
+	width: 0;
+}
+
+a.sort-by:before {
+	border-bottom-color: #666;
+	margin-top: -9px;
+}
+
+a.sort-by:after {
+	border-top-color: #666;
+	margin-top: 1px;
+}
+
+tr.reports-header-text th {
+	padding: 15px !important;
+	vertical-align: middle !important;
+}
+
+tr.reports-content-text td {
+	padding: 15px !important;
+	vertical-align: middle !important;
+}
+
+.report-action-btn {
+	padding: 4px 22px !important;
+	font-size: 11px !important;
+	font-weight: 400 !important;
+	letter-spacing: 0.5px !important;
+	border-color: none !important;
+	outline: 0px !important;
+	cursor: auto;
+	width: 96px;
+}
+
+.btn-danger, .btn-success {
+	border-color: transparent !important;
+}
+
+/* Header */
+.head-cont {
+	padding: 10px 0 10px 0;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+/* Navigation */
+.nav-tabs {
+	border-top: 1px solid #ddd;
+}
+
+.link a {
+	color: #A9A9A9;
+	font-size: 14px;
+}
+
+li.active {
+	border-bottom: 3px solid #5B68C4;
+}
+
+/* Top pane row */
+.tab-pane {
+	padding-top: 5px;
+}
+
+.tab-pane .tab-pane-content {
+	margin-top: 15px;
+}
+
+.tab-pane table {
+	background-color: white;
+}
+
+.tab-pane table th {
+	font-weight: 500;
+}
+
+/* Configuration Tab */
+#config.tab-pane table th {
+	color: #BABBC6;
+	padding: 20px 0 12px;
+}
+
+#config.tab-pane table thead th {
+	border-bottom-width: 1px;
+}
+
+#config.tab-pane table td {
+	font-size: 13px;
+}
+
+#config.tab-pane table th:first-child, #config.tab-pane table td:first-child
+	{
+	padding-left: 50px;
+	font-weight: 500;
+}
+
+#config.tab-pane table th:last-child, #config.tab-pane table td:last-child
+	{
+	padding-right: 40px;
+}
+
+#config.tab-pane table td {
+	vertical-align: middle;
+}
+
+#config.tab-pane table td:last-child {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 0;
+}
+
+#config .toggle-buttons label.disabled {
+	opacity: 1;
+}
+
+#config .toggle-buttons label {
+	width: 120px;
+	border-color: #ccc;
+	outline: 0px;
+	font-size: 13px;
+}
+
+#config .toggle-buttons label:first-child {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#config .toggle-buttons label:last-child {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-left: -10%;
+}
+
+#config .env-header {
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #f5f8fa;
+}
+
+#config.tab-pane table .env-header th {
+	color: #37474f;
+	padding-left: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#config .config-save {
+	background-color: #5B68C4;
+	width: 105px;
+	font-size: 14px;
+	padding: 8px 16px;
+	font-weight: 500;
+	margin: 8px 0 10px;
+}
+
+/* Notifications */
+#notifications.tab-pane table td:first-child {
+	padding-left: 50px;
+	font-weight: 500;
+	vertical-align: middle;
+	width: 35%;
+}
+
+#notifications.tab-pane table td:last-child {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+#notifications .toggle-buttons label {
+	width: 80px;
+	border-color: #ccc;
+	outline: 0px;
+	font-size: 13px;
+}
+
+#notifications .toggle-buttons label:first-child {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#notifications .toggle-buttons label:last-child {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-left: -15%;
+}
+
+#notifications .config-save {
+	background-color: #5B68C4;
+	width: 105px;
+	font-size: 14px;
+	padding: 8px 16px;
+	font-weight: 500;
+	margin: 8px 0 10px;
+}
+
+/* FAQs */
+#faq .panel-group {
+	background-color: white;
+	padding: 19px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+#faq .panel-title a {
+	color: #5e6cc5;
+	font-weight: 100;
+	font-size: 21px;
+}
+
+.panel-group .panel-heading a:after {
+	content: url('images/up_arrow.svg');
+	color: #5e6cc5;
+	float: right;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.panel-group .panel-heading a.collapsed:after {
+	content: url('images/down_arrow.svg');
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body
+	{
+	border-top: 0px solid #ddd !important;
+}
+
+.panel-group .panel-body {
+	width: 100%;
+	padding-right: 60px;
+	font-size: 14px;
+	letter-spacing: 0.2px !important;
+	color: #595959 !important;
+}
+
+/* Admin layouts */
+.icon-monochrome-logo {
+	height: 25px;
+	width: 55px;
+}
+
+.admin .container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.admin .container-fluid nav {
+	border-radius: 0;
+}
+
+.admin .navbar-inverse {
+	background-color: #428bca;
+	border-color: #428bca;
+	color: #fff;
+}
+
+.admin .navbar-inverse .container {
+	padding-top: 10px;
+}
+
+.admin .lnk-logout, .admin .lnk-logout:visited {
+	color: #fff;
+}
+
+.admin .lnk-logout:hover, .admin .lnk-logout:active {
+	color: #ccc;
+}
+
+.admin .tab-pane-content {
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.admin .adm-listing h3 {
+	color: #444;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e3e3e3;
+	margin-bottom: 25px;
+}
+
+.admin thead th {
+	text-transform: uppercase;
+}
+
+.admin th a.sort-by {
+	color: #444;
+}
+
+.admin table {
+	background-color: #fff;
+}
+
+.admin .well, .tab-pane-content .store-billing .well {
+	box-shadow: none;
+}
+
+.admin th, .tab-pane-content .store-billing th {
+	border-bottom-width: 1px !important;
+}
+
+.admin .adm-filters {
+	padding: 15px 18px;
+	background-color: #fff;
+	margin-bottom: 25px;
+}
+
+.admin .adm-filters .form-group {
+	padding-right: 10px;
+}
+
+.admin .adm-filters button {
+	background-color: #428bca;
+	border-color: #428bca;
+	color: #fff;
+}
+
+.admin .adm-store-info {
+	padding: 10px 0;
+	background-color: #fff;
+	margin-bottom: 25px;
+	font-size: 16px;
+}
+
+.admin .adm-store-info .col {
+	padding: 15px 0;
+	border-right: 1px solid #e3e3e3;
+}
+
+.admin .adm-store-info .col:last-child {
+	border-right: none;
+}
+
+.admin .adm-store-info .col span {
+	font-weight: bold;
+	color: #428bca;
+}
+
+.admin .store-billing th, .admin .store-billing td {
+	text-align: center;
+}
+
+.tab-pane-content .store-billing th, .tab-pane-content .store-billing td
+	{
+	text-align: center;
+}
+
+.notification-bar {
+	padding: 8px 20px;
+	background-color: rgba(255, 243, 207, 0.7);
+	border-radius: 5px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	color: #555;
+	margin-top: 2px;
+}
+
+.notification-bar .btn {
+	background-color: #5B68C4;
+	text-decoration: none !important;
+	border-color: #5B68C4;
+	margin-left: 10px;
+}
+
+.notification-bar .btn:hover {
+	background-color: #5B68C4;
+	border-color: #5B68C4;
+}
+
+/* CSS for mobile devices */
+@media only screen and (max-width: 600px) {
+	#config.tab-pane table th:first-child, #config.tab-pane table td:first-child
+		{
+		padding-left: 15px;
+	}
+	#config.tab-pane table th:last-child, #config.tab-pane table td:last-child
+		{
+		padding-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.panel-group .panel-heading a:after {
+		display: none;
+	}
+}ding a:after {
+		display: none;
+	}
+}
